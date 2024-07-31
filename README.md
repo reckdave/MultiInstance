@@ -6,7 +6,7 @@ Made for the bounty / mods
 # HOW TO USE
 - No more and one mod can edit your world, Kinito is also replaced so it conflicts with KinitoFIXES
 - Copy the code and paste it in ur project
-- Replace `MAINInstance.DATA` in saveLoc and replace it to something unique
+- Replace `MAINInstance.DATA` in saveLoc and rename it to something unique
 - Use the file system format, e.g edited your_world in `res://-Scenes/NewInstance/1/1.tscn`
 - Custom instance can also be made, just create a folder in NewInstance name give it a unique number
 
