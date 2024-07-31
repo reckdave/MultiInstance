@@ -1,7 +1,7 @@
 # MultiInstance
 Made for the bounty / mods
 
-# STILL BEING MADE AND CHANGED
+# STILL BEING MADE AND CHANGED, EXPECT SOME KINITO BUGS
 
 # HOW TO USE
 - No more and one mod can edit your world, Kinito is also replaced so it conflicts with KinitoFIXES
