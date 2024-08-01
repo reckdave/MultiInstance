@@ -7,11 +7,7 @@ Made for the bounty / mods
 - When want to open your_world, you would have to get the mods location and call .openInst()
 
 # HOW THE F#CK DOES THIS WORK?!?
-
-- The mod creates a file that can read and write, at launch the data stored in that file is set to false
-- The mod reopens the base game because it is the only scene that loads mods.
-- The file then gets set to true and wont open the game again (to stop infinite games from opening)
-- If the game reads the file as true when the mod loads. It switches the scene to the one you put in the script
+- The mod creates a file in Kinitopet_DATA called `Instance.DATA`, the mod reads and writes in this file. Everytime the game launches, it reads the file, if the first key in DATA is true it would change the scene to the key name
 
 # PROOF VIDEO
 
