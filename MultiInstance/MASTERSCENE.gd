@@ -53,6 +53,7 @@ func _ready():
 
 func _notification(what):
 	if what == NOTIFICATION_WM_QUIT_REQUEST or what == NOTIFICATION_EXIT_TREE:
+		DATA.clear()
 		DATA["res://-Scenes/NewInstance/1/1.tscn"] = false
 		write_file()
 	pass
